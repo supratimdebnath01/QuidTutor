@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quidtutor | Home</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- Star rating css -->
+    <link rel="stylesheet" href="./assets/css/star-rating-svg.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl fixed-top">
+        <div class="container-fluid header_margin">
+            <a class="navbar-brand" href="index.html">QuidTutor</a>
+            <div class="d-flex">
+                <a class="btn bold p-0 d-xl-none" href="./assets/html/Login.html"><img src="./assets/images/login.svg"
+                        alt="">LOGIN</a>
+                <button class="navbar-toggler" type="button"><i class="fas fa-bars"></i></button>
+                <div id="navbarSupportedContent"
+                    class="collapse-content justify-content-xl-end d-flex flex-column flex-xl-row">
+                    <div class="close_nav d-xl-none">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <a class="navbar-brand d-xl-none text-xl-start text-center mt-4" href="/index.html">QuidTutor</a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="./assets/html/find_a_tutor.html" class="nav-link">Find a tutor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./assets/html/pricing.html" class="nav-link">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">For schools</a>
+                        </li>
+                        <a href="./assets/html/Login.html" class="btn bold p-0 d-xl-inline-block d-none">
+                            <i class="far fa-user"></i>LOGIN</a>
+                        <li class="nav-item position-relative">
+                            <a href="#" class="nav-link icon cart_link">
+                                <i class="fas fa-shopping-cart"></i></a>
+                            <div class="card_box cart_box" style="display: block;">
+                                <div class="text-end">
+                                    <a class="close_icon close_popup_cart" href="">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
+                                <div class="text-content">
+                                    <h3 class="title text-dark">Pay as you go plan</h3>
+                                    <p class="caption qty">1Hour x £1</p>
+                                    <div class="cart_item">
+                                        <div class="d-flex align-items-start">
+                                            <img class="item_img me-2" src="./assets/images/cource.png" alt="">
+                                            <div>
+                                                <h3 class="item_title mb-0 text-dark">The Data Science Course
+                                                    2021:Complete Data Science</h3>
+                                                <p class="qty">1 x $5</p>
+                                            </div>
+                                            <a class="close_icon close_item" href="#">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart_item">
+                                        <div class="d-flex align-items-start justify-content-between">
+                                            <p>TOTAL</p>
+                                            <p>$10</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-pink d-block ms-0">VIEW CART</a>
+                                </div>
+                            </div>
+                        </li>
+                        <a href="#" class="btn btn-blue">Become a tutor</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- header section start from here  -->
+    <header>
+        <div class="header_section">
+            <div class="container">
+                <img class="yellow_ele" src="./assets/images/yellow_ele 1.png" alt="">
+                <div class="content mx-auto">
+                    <h1 class="hero_heading">Boost Grades <br> with Affordable tutoring</h1>
+                    <p class="hero_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget
+                        commodo nec, auctor a sapien.
+                    </p>
+                    <div class="form-section d-flex">
+                        <div class="form-title flex-center">
+                            <h3 class="text">FIND TOUR</h3>
+                            <h4 class="green-txt">TUTOR</h4>
+                        </div>
+                        <form class="flex-center form">
+                            <select name="subject" id="subject" class="form-select" placeholder="Enter a subject">
+                                <option selected>Subject</option>
+                                <option value="subject">Subject 1</option>
+                                <option value="subject">Subject 2</option>
+                                <option value="subject">Subject 3</option>
+                                <option value="subject">Subject 4</option>
+                            </select>
+                            <select name="subject" id="subject" class="form-select" placeholder="Enter a keyword">
+                                <option selected>Keyword</option>
+                                <option value="subject">Keyword 1</option>
+                                <option value="subject">Keyword 2</option>
+                                <option value="subject">Keyword 3</option>
+                                <option value="subject">Keyword 4</option>
+                            </select>
+                            <a href="#" class="btn btn-pink">Find Now</a>
+                        </form>
+                    </div>
+                </div>
+                <img src="./assets/images/hero_female.png" class="side-imgs left_img" alt="">
+                <img src="./assets/images/hero_male.png" class="side-imgs right_img" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- main section start from here -->
+    <main>
+        <div class="lession_section">
+            <div class="container text-center">
+                <h2 class="section_title text-white">Lessons at just<span class="text-pink"> £1/ Hour</span></h2>
+                <div class="groups">
+                    <div class="row justify-content-center  lesson_margin_top">
+                        <img class="arrow arrow_left" src="./assets/images/bottom-arrow 1.png" alt="">
+                        <img class="arrow arrow_right" src="./assets/images/bottom-arrow 1.png" alt="">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="group group_bottom">
+                                <div class="img mx-auto">
+                                    <img class="w-100" src="./assets/images/Group 336.png" alt="">
+                                </div>
+                                <h4 class="group_text">No Registration Fees, No Recurring Fees.</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="group">
+                                <div class="img mx-auto">
+                                    <img class="w-100" src="./assets/images/Group 337.png" alt="">
+                                </div>
+                                <h4 class="group_text">£1 covers 45 minutes of Tutoring</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="group group_bottom">
+                                <div class="img mx-auto">
+                                    <img class="w-100" src="./assets/images/Group 338.png" alt="">
+                                </div>
+                                <h4 class="group_text">Every Session is followed by 15 minutes of Q&A.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- lesson section end -->
+        <div class="tutor-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6 img_section">
+                        <img class="green_ele" src="./assets/images/green_ele 2.png" alt="">
+                        <img class="yellow_bg" src="./assets/images/home_yellow_layer.png" alt="">
+                        <img class="girl_vector" src="./assets/images/home_tutor.png" alt="">
+                    </div>
+                    <div class="col-xl-6 col-md-6 text_section">
+                        <div class="text">
+                            <h2 class="section_title mb-3">QuidTutor only accepts the top<span class="text-pink"> 20%
+                                </span>of the applicants to become tutor with us</h2>
+                            <p class="paragraph">All Tutors pass a strict test criteria so we only choose the best for
+                                your child. All Tutorsare Subject Experts and only chosen if we feel they can deliver
+                                the best results
+                                for you.</p>
+                            <div class="qualities d-flex justify-content-between flex-wrap">
+                                <div class="quality">
+                                    <h2><span class="text-pink">99%</span></h2>
+                                    <p>5-Star <br>Rated Review</p>
+                                </div>
+                                <div class="quality">
+                                    <h2><span class="text-pink">A+</span></h2>
+                                    <p>Degree <br>Educated Tutor</p>
+                                </div>
+                                <div class="quality">
+                                    <h2><span class="text-pink">DBS</span></h2>
+                                    <p>Background <br>Checked Tutors</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-blue text-white">FIND YOUR TUTOR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- find tutur section -->
+        <div class="find_tutur_section">
+            <div class="container">
+                <div class="content text-center mx-auto">
+                    <h2 class="section_title">Find Online Tutor <br>in any subject</h2>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 subject">
+                            <img src="./assets/images/maths.png" alt="">
+                            <h3>Mathematics</h3>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 subject">
+                            <img src="./assets/images/Icon-07 1.png" alt="">
+                            <h3>English</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-6 subject">
+                            <img src="./assets/images/biology-09 1.png" alt="">
+                            <h3>Biology</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-6 subject">
+                            <img src="./assets/images/Icon-10 1.png" alt="">
+                            <h3>Chemsitry</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-6 subject">
+                            <img src="./assets/images/Icon-11 2.png" alt="">
+                            <h3>Physics</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-6 subject">
+                            <img src="./assets/images/Icon-12.png" alt="">
+                            <h3>Science</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-6 subject">
+                            <img src="./assets/images/Icon-13.png" alt="">
+                            <h3>French</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-6 subject">
+                            <img src="./assets/images/Icon-14 1.png" alt="">
+                            <h3>Spanish</h3>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-blue text-white mt-4 odd">VIEW ALL SUBJECTS</a>
+                </div>
+            </div>
+        </div>
+        <!-- grades -->
+        <div class="improve_grades">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6 img_section position-relative">
+                        <img class="girl" src="./assets/images/child.jpg" alt="">
+                        <img class="boy" src="./assets/images/child_2.jpg" alt="">
+                        <img class="green_ele" src="./assets/images/green_ele 2.png" alt="">
+                        <img class="sign" src="./assets/images/asa 1.png" alt="">
+                    </div>
+                    <div class="col-xl-6 col-md-6 col-12">
+                        <div class="text_box">
+                            <h2 class="section_title">Improve your Grades While Enjoying Your Lessons</h2>
+                            <div class="grades">
+                                <div class="d-flex">
+                                    <img src="./assets/images/check.svg" alt="">
+                                    <div class="text">
+                                        <h3 class="heading">Tutors use interactive White Boards</h3>
+                                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Quisque sapien velit, aliquet eget commodo nec</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grades">
+                                <div class="d-flex">
+                                    <img src="./assets/images/check.svg" alt="">
+                                    <div class="text">
+                                        <h3 class="heading">Pictures</h3>
+                                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Quisque sapien velit, aliquet eget commodo nec</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grades">
+                                <div class="d-flex">
+                                    <img src="./assets/images/check.svg" alt="">
+                                    <div class="text">
+                                        <h3 class="heading">Practise Questions</h3>
+                                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Quisque sapien velit, aliquet eget commodo nec</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grades">
+                                <div class="d-flex">
+                                    <img src="./assets/images/check.svg" alt="">
+                                    <div class="text">
+                                        <h3 class="heading">Interactive Exercises</h3>
+                                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Quisque sapien velit, aliquet eget commodo nec</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-blue text-white mt-4">GET STARTED NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Courses -->
+        <div class="cources_section">
+            <div class="container">
+                <h2 class="title section_title text-center">Most popular courses</h2>
+                <div class="cource_carousel position-relative">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper px-2 swiper-initialized swiper-horizontal swiper-pointer-events">
+                                    <div class="cource_card">
+                                        <span class="card_badge badge_inter">English</span>
+                                        <div class="card-img">
+                                            <img class="cource-thumnnail" src="./assets/images/cource.png" alt="">
+                                            <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                            <div class="wish_list flex-center">
+                                                <img src="./assets/images/star.png" alt="" class="fav m-0">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                            </h2>
+                                            <div class="reviews d-flex align-items-center">
+                                                <div class="my-rating readOnly mb-2 me-2">
+                                                </div>
+                                                <span class="rating">4.9</span>
+                                                <span class="review_quantity">(79 Reviews)</span>
+                                            </div>
+                                            <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                                        </div>
+                                        <div class="footer mt-4">
+                                            <div class="info d-flex justify-content-between">
+                                                <p class="total_lesson">
+                                                    <i class="fas fa-stopwatch"></i>
+                                                    02h 15m
+                                                </p>
+                                                <p class="total_student">
+                                                    <i class="far fa-user"></i>
+                                                    5 Students
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper px-2 swiper-initialized swiper-horizontal swiper-pointer-events">
+                                    <div class="cource_card">
+                                        <span class="card_badge badge_inter">Bengali</span>
+                                        <div class="card-img">
+                                            <img class="cource-thumnnail" src="./assets/images/cource.png" alt="">
+                                            <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                            <div class="wish_list flex-center">
+                                                <img src="./assets/images/star.png" alt="" class="fav m-0">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                            </h2>
+                                            <div class="reviews d-flex align-items-center">
+                                                <div class="my-rating readOnly mb-2 me-2">
+                                                </div>
+                                                <span class="rating">4.9</span>
+                                                <span class="review_quantity">(79 Reviews)</span>
+                                            </div>
+                                            <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                                        </div>
+                                        <div class="footer mt-4">
+                                            <div class="info d-flex justify-content-between">
+                                                <p class="total_lesson">
+                                                    <i class="fas fa-stopwatch"></i>
+                                                    02h 15m
+                                                </p>
+                                                <p class="total_student">
+                                                    <i class="far fa-user"></i>
+                                                    5 Students
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper px-2 swiper-initialized swiper-horizontal swiper-pointer-events">
+                                    <div class="cource_card">
+                                        <span class="card_badge badge_inter">Hindi</span>
+                                        <div class="card-img">
+                                            <img class="cource-thumnnail" src="./assets/images/cource.png" alt="">
+                                            <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                            <div class="wish_list flex-center">
+                                                <img src="./assets/images/star.png" alt="" class="fav m-0">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                            </h2>
+                                            <div class="reviews d-flex align-items-center">
+                                                <div class="my-rating readOnly mb-2 me-2">
+                                                </div>
+                                                <span class="rating">4.9</span>
+                                                <span class="review_quantity">(79 Reviews)</span>
+                                            </div>
+                                            <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                                        </div>
+                                        <div class="footer mt-4">
+                                            <div class="info d-flex justify-content-between">
+                                                <p class="total_lesson">
+                                                    <i class="fas fa-stopwatch"></i>
+                                                    02h 15m
+                                                </p>
+                                                <p class="total_student">
+                                                    <i class="far fa-user"></i>
+                                                    5 Students
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper px-2 swiper-initialized swiper-horizontal swiper-pointer-events">
+                                    <div class="cource_card">
+                                        <span class="card_badge badge_inter">Math</span>
+                                        <div class="card-img">
+                                            <img class="cource-thumnnail" src="./assets/images/cource.png" alt="">
+                                            <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                            <div class="wish_list flex-center">
+                                                <img src="./assets/images/star.png" alt="" class="fav m-0">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                            </h2>
+                                            <div class="reviews d-flex align-items-center">
+                                                <div class="my-rating readOnly mb-2 me-2">
+                                                </div>
+                                                <span class="rating">4.9</span>
+                                                <span class="review_quantity">(79 Reviews)</span>
+                                            </div>
+                                            <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                                        </div>
+                                        <div class="footer mt-4">
+                                            <div class="info d-flex justify-content-between">
+                                                <p class="total_lesson">
+                                                    <i class="fas fa-stopwatch"></i>
+                                                    02h 15m
+                                                </p>
+                                                <p class="total_student">
+                                                    <i class="far fa-user"></i>
+                                                    5 Students
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper px-2 swiper-initialized swiper-horizontal swiper-pointer-events">
+                                    <div class="cource_card">
+                                        <span class="card_badge badge_inter">CSE</span>
+                                        <div class="card-img">
+                                            <img class="cource-thumnnail" src="./assets/images/cource.png" alt="">
+                                            <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                            <div class="wish_list flex-center">
+                                                <img src="./assets/images/star.png" alt="" class="fav m-0">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                            </h2>
+                                            <div class="reviews d-flex align-items-center">
+                                                <div class="my-rating readOnly mb-2 me-2">
+                                                </div>
+                                                <span class="rating">4.9</span>
+                                                <span class="review_quantity">(79 Reviews)</span>
+                                            </div>
+                                            <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                                        </div>
+                                        <div class="footer mt-4">
+                                            <div class="info d-flex justify-content-between">
+                                                <p class="total_lesson">
+                                                    <i class="fas fa-stopwatch"></i>
+                                                    02h 15m
+                                                </p>
+                                                <p class="total_student">
+                                                    <i class="far fa-user"></i>
+                                                    5 Students
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper px-2 swiper-initialized swiper-horizontal swiper-pointer-events">
+                                    <div class="cource_card">
+                                        <span class="card_badge badge_inter">Physics</span>
+                                        <div class="card-img">
+                                            <img class="cource-thumnnail" src="./assets/images/cource.png" alt="">
+                                            <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                            <div class="wish_list flex-center">
+                                                <img src="./assets/images/star.png" alt="" class="fav m-0">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                            </h2>
+                                            <div class="reviews d-flex align-items-center">
+                                                <div class="my-rating readOnly mb-2 me-2">
+                                                </div>
+                                                <span class="rating">4.9</span>
+                                                <span class="review_quantity">(79 Reviews)</span>
+                                            </div>
+                                            <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                                        </div>
+                                        <div class="footer mt-4">
+                                            <div class="info d-flex justify-content-between">
+                                                <p class="total_lesson">
+                                                    <i class="fas fa-stopwatch"></i>
+                                                    02h 15m
+                                                </p>
+                                                <p class="total_student">
+                                                    <i class="far fa-user"></i>
+                                                    5 Students
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button1 swiper-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="swiper-button2 swiper-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                </div>
+                <div class="mt-5 text-center">
+                    <a href="#" class="btn btn-blue text-white">BROWSE ALL COURSES </a>
+                </div>
+            </div>
+        </div>
+        <!-- Register  -->
+        <div class="register_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="text">
+                            <h2 class="section_title">Create Your <span class="text-pink">Free</span> student Account
+                                Today and Learn from our Tutors at <span class="text-pink">£1/ Hour</span></h2>
+                            <a href="#" class="btn btn-blue text-white mt-4">REGISTER NOW</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <div class="img position-relative">
+                            <img class="black_dotted" src="./assets/images/black 1.svg" alt="">
+                            <img class="green_vector" src="./assets/images/home_green_layer.png" alt="">
+                            <img class="girl_img" src="./assets/images/home_girl.png" alt="">
+                            <img class="yellow_ele" src="./assets/images/yellow_ele 1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback -->
+        <div class="feedback_section">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section_title">Trusted by thousands of <br> students & tutor </h2>
+                </div>
+                <div class="feedback_carousel position-relative">
+                    <div class="swiper" id="feedback_swipe">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div
+                                    class="swiper px-2 swiper-initialized swiper-horizontal swiper-pointer-events quote-img">
+                                    <div class="card">
+                                        <div class="quote">
+                                            <img src="./assets/images/quote.png" alt="">
+                                        </div>
+                                        <h3 class="client_name">Sharon T. </h3>
+                                        <div class="star_rating">
+                                            <img class="client_review" src="./assets/images/ratings.png" alt="">
+                                        </div>
+                                        <p class="paragraph">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Quisque sapien
+                                            velit, aliquet
+                                            eget commodo nec ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper px-2 initialized swiper-horizontal swiper-pointer-events quote-img">
+                                    <div class="card">
+                                        <div class="quote">
+                                            <img src="./assets/images/quote.png" alt="">
+                                        </div>
+                                        <h3 class="client_name">Sharon T. </h3>
+                                        <div class="star_rating">
+                                            <img class="client_review" src="./assets/images/ratings.png" alt="">
+                                        </div>
+                                        <p class="paragraph">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Quisque sapien
+                                            velit,
+                                            aliquet eget commodo nec ipsum dolor sit amet, consectetur adipiscing
+                                            elit...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div
+                                    class="swiper px-2 swiper-initialized swiper-horizontal swiper-pointer-events quote-img">
+                                    <div class="card">
+                                        <div class="quote">
+                                            <img src="./assets/images/quote.png" alt="">
+                                        </div>
+                                        <h3 class="client_name">Sharon T. </h3>
+
+                                        <div class="star_rating">
+                                            <img class="client_review" src="./assets/images/ratings.png" alt="">
+                                        </div>
+                                        <p class="paragraph">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Quisque sapien
+                                            velit,
+                                            aliquet eget commodo nec ipsum dolor sit amet, consectetur adipiscing
+                                            elit...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button1 swiper-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="swiper-button2 swiper-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer starts from here -->
+    <div class="quid-tutor">
+        <div class="container footer_padding">
+            <div class="row">
+                <div class="col-lg-10 col-md-9">
+                    <h2 class="section_title">Want to teach in QuidTutor?</h2>
+                    <p class="black">QuidTutor collaborate professional and talented tutors from all over the world!
+                        Join us right now!</p>
+                </div>
+                <div class="col-lg-2 col-md-3 flex-center">
+                    <a href="#" class="btn btn-yellow">Apply NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container footer_padding">
+            <div class="row-1 row">
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0">
+                    <h2 class="title_lg text-pink">Connect <br>With Us</h2>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0">
+                    <h3 class="section_title">Company</h3>
+                    <div class="list">
+                        <a href="#" class="links">About us</a>
+                        <a href="#" class="links">Pricing</a>
+                        <a href="#" class="links">Careers</a>
+                        <a href="#" class="links">Blog</a>
+                        <a href="#" class="links">Contact us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0">
+                    <h3 class="section_title">Solutions</h3>
+                    <div class="list">
+                        <a href="#" class="links">Find a tutor</a>
+                        <a href="#" class="links">How it works </a>
+                        <a href="#" class="links">Prices</a>
+                        <a href="#" class="links">Resources</a>
+                        <a href="#" class="links">For schools</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0 text-xl-end text-start">
+                    <h3 class="section_title">Courses</h3>
+                    <div class="list">
+                        <a href="#" class="links">Khan Kids app</a>
+                        <a href="#" class="links">Science & engineering</a>
+                        <a href="#" class="links">Computing</a>
+                        <a href="#" class="links">Arts & humanities</a>
+                        <a href="#" class="links">Economics & finance</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row-2 row">
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info">
+                        <h3>REACH US AT</h3>
+                        <p>Berger Delhi One Floor 19, C-001/A2, </p>
+                        <p>Sector 16B, Noida, Uttar Pradesh 201301</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info">
+                        <h3>CALL US AT</h3>
+                        <p> +91 33 25745565110 </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info">
+                        <h3>SEND US EMAIL AT</h3>
+                        <p>info@quidtutor.com </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info text-xl-end text-start">
+                        <div class="socials">
+                            <a href="#" class="social-link social_link_nomargin"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <p>© 2022 quidtutor All Rights Reserved</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/jquery.star-rating-svg.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script>
+        let fav = document.querySelectorAll(".wish_list");
+        fav.forEach(star => {
+            star.addEventListener("click", () => {
+                star.classList.toggle("active");
+            })
+        })
+    </script>
+</body>
+
+</html>

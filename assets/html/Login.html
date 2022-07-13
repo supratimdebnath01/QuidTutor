@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Quid tutor</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl fixed-top">
+        <div class="container-fluid header_margin">
+            <a class="navbar-brand" href="/index.html">QuidTutor</a>
+            <div class="d-flex">
+                <a class="btn bold p-0 d-xl-none" href="./Login.html">
+                    <img src="../images/login.svg" alt="">LOGIN</a>
+                <button class="navbar-toggler">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div id="navbarSupportedContent"
+                    class="collapse-content justify-content-xl-end d-flex flex-column flex-xl-row">
+                    <div class="close_nav d-xl-none">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <a class="navbar-brand d-xl-none text-xl-start text-center mt-4" href="/index.html">QuidTutor</a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="./find_a_tutor.html" class="nav-link">Find a tutor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pricing.html" class="nav-link">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">For schools</a>
+                        </li>
+                        <a href="./Login.html" class="btn bold p-0 d-xl-inline-block d-none">
+                            <i class="far fa-user"></i>LOGIN</a>
+                        <li class="nav-item position-relative">
+                            <a href="#" class="nav-link icon cart_link">
+                                <i class="fas fa-shopping-cart"></i></a>
+                            <div class="card_box cart_box" style="display: block;">
+                                <div class="text-end">
+                                    <a class="close_icon close_popup_cart" href="">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
+                                <div class="text-content">
+                                    <h3 class="title text-dark">Pay as you go plan</h3>
+                                    <p class="caption qty">1Hour x £1</p>
+                                    <div class="cart_item">
+                                        <div class="d-flex align-items-start">
+                                            <img class="item_img me-2" src="../images/cource.png" alt="">
+                                            <div>
+                                                <h3 class="item_title mb-0 text-dark">The Data Science Course
+                                                    2021:Complete Data Science</h3>
+                                                <p class="qty">1 x $5</p>
+                                            </div>
+                                            <a class="close_icon close_item" href="#">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart_item">
+                                        <div class="d-flex align-items-start justify-content-between">
+                                            <p>TOTAL</p>
+                                            <p>$10</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-pink d-block ms-0">VIEW CART</a>
+                                </div>
+                            </div>
+                        </li>
+                        <a href="#" class="btn btn-blue">Become a tutor</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="auth_section">
+        <div class="container">
+            <div class="login_section">
+                <div class="row">
+                    <h1 class="section_title text-white text-center ">Login</h1>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="login_card border-dashed b-pink">
+                            <div class="img">
+                                <img src="../images/parent 2.png" alt="">
+                            </div>
+                            <h2 class="card_title">I am a Parent</h2>
+                            <p class="card_text">Manage payments or lessons for your child</p>
+                            <a href="" class="btn btn-pink w-100 mx-0 p_log">PARENT LOGIN</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="login_card border-dashed b-pink">
+                            <div class="img">
+                                <img src="../images/student 2.png" alt="">
+                            </div>
+                            <h2 class="card_title">I am a Student</h2>
+                            <p class="card_text">Have lessons, message your tutor or watch your lessons back</p>
+                            <a href="" class="btn btn-pink w-100 mx-0">STUDENT LOGIN</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="login_card border-dashed b-yellow2">
+                            <div class="img">
+                                <img src="../images/tutor 1.png" alt="">
+                            </div>
+                            <h2 class="card_title">I am a Tutor</h2>
+                            <p class="card_text">Have lessons, message your tutor or watch your lessons back</p>
+                            <a href="" class="btn btn-yellow2 w-100 mx-0">TUTOR LOGIN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/slider.js"></script>
+
+</body>
+
+</html>

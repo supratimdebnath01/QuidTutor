@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find tutor | Quid tutor</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/star-rating-svg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <!-- Select2 link   -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />  
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>  
+    <!-- star rating css  -->
+   
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl fixed-top">
+        <div class="container-fluid header_margin">
+            <a class="navbar-brand" href="/index.html">QuidTutor</a>
+            <div class="d-flex">
+                <a class="btn bold p-0 d-xl-none" href="./Login.html">
+                    <img src="../images/login.svg" alt="">LOGIN</a>
+                 <button class="navbar-toggler">
+                     <i class="fas fa-bars"></i>
+                 </button>    
+                <div id="navbarSupportedContent"
+                    class="collapse-content justify-content-xl-end d-flex flex-column flex-xl-row">
+                    <div class="close_nav d-xl-none">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <a class="navbar-brand d-xl-none text-xl-start text-center mt-4" href="/index.html">QuidTutor</a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="./find_a_tutor.html" class="nav-link">Find a tutor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pricing.html" class="nav-link">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">For schools</a>
+                        </li>
+                        <a href="./Login.html" class="btn bold p-0 d-xl-inline-block d-none">
+                            <i class="far fa-user"></i>LOGIN</a>
+                        <li class="nav-item position-relative">
+                            <a href="#" class="nav-link icon cart_link">
+                                <i class="fas fa-shopping-cart"></i></a>
+                                <div class="card_box cart_box" style="display: block;">
+                                    <div class="text-end">
+                                      <a class="close_icon close_popup_cart" href="">
+                                          <i class="fas fa-times"></i>
+                                      </a>
+                                    </div>
+                                    <div class="text-content">
+                                      <h3 class="title text-dark">Pay as you go plan</h3>
+                                      <p class="caption qty">1Hour x £1</p>
+                                      <div class="cart_item">
+                                        <div class="d-flex align-items-start">
+                                            <img class="item_img me-2" src="../images/cource.png" alt="">
+                                            <div>
+                                                <h3 class="item_title mb-0 text-dark">The Data Science Course 2021:Complete Data Science</h3>
+                                                <p class="qty">1 x $5</p>
+                                            </div>
+                                            <a class="close_icon close_item" href="#">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                        </div>
+                                      </div>
+                                      <div class="cart_item">
+                                        <div class="d-flex align-items-start justify-content-between">
+                                            <p>TOTAL</p>
+                                            <p>$10</p>
+                                        </div>
+                                      </div>
+                                      <a href="#" class="btn btn-pink d-block ms-0">VIEW CART</a>
+                                    </div>
+                                </div>     
+                        </li>
+                        <a href="#" class="btn btn-blue">Become a tutor</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- header section start from here -->
+    <header>
+        <div class="tutor_header_section">
+            <div class="container">
+                <img class="yellow_ele" src="../images/yellow_ele 1.png" alt="">
+                <img class="girl_img" src="../images/tutor_header.png" alt="">
+            </div>
+            <div class="container position-relative">
+                <div class="text text-center">
+                    <h1 class="hero_heading">tutors that fit your schedule</h1>
+                    <p class="hero_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien
+                        velit,aliquet eget commodo nec, auctor a sapien. </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main part -->
+    <main class="tutor_main">
+        <img class="green_ele_right" src="../images/green_ele 2.png" alt="">
+        <div class="container">
+            <div class="form">
+                <form class="flex-center">
+                    <select class="js-example-basic-single form-select select2-accessible" id="search">
+                        <option value="TUTOR NAME" selected>TUTOR NAME</option>
+                        <option value="TUTOR NAME" >TUTOR NAME 1</option>
+                        <option value="TUTOR NAME" >TUTOR NAME 2</option>
+                        <option value="TUTOR NAME" >TUTOR NAME 3</option>
+                    </select>
+                    
+                    <select class="form-select" name="subject">
+                        <option value="SUBJECT" selected>SUBJECT</option>
+                        <option value="SUBJECT">SUBJECT 1</option>
+                        <option value="SUBJECT">SUBJECT 2</option>
+                        <option value="SUBJECT">SUBJECT 3</option>
+                    </select>
+                    <select class="form-select" name="availablity">
+                        <option value="AVAILABILITY" selected>AVAILABILITY</option>
+                        <option value="AVAILABILITY">AVAILABILITY 1</option>
+                        <option value="AVAILABILITY">AVAILABILITY 2</option>
+                        <option value="AVAILABILITY">AVAILABILITY 3</option>
+                    </select>
+                    <select class="form-select" name="rating">
+                        <option value="RATING" selected>RATING</option>
+                        <option value="RATING">RATING 1</option>
+                        <option value="RATING">RATING 2</option>
+                        <option value="RATING">RATING 3</option>
+                    </select>
+                    <a href="#" class="btn btn-pink">FIND NOW</a>
+                </form>
+            </div>
+        </div>
+        <!-- Tutor cards  -->
+        <div class="tutor_cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="tutor_card">
+                            <div class="tutor_img">
+                                <img src="../images/vs.png" alt="">
+                            </div>
+                            <div class="wish_list flex-center">
+                                <img class="fav m-0" src="../images/star.png" alt="">
+                            </div>
+                            <h2 class="tutor_name">Alice.W</h2>
+                            <div class="reviews d-flex align-items-center justify-content-center">
+                                <div class="my-rating readOnly mb-2 me-2"></div>
+                                <span class="rating">4.9</span>
+                                <span class="review_quantity">(79 Reviews)</span>
+                            </div>
+                            <p class="last_delivered">Last session delivered: <b>11 Aug 2022</b> </p>
+                            <div class="subjects">
+                                <span class="subject">Biology</span>
+                                <span class="subject">Physics</span>
+                                <span class="subject">Chemistry</span>
+                                <span class="subject">Travel</span>
+                            </div>
+                            <p class="short_bio">Hi, I'm Niamh and I hope to use my experience of exams to help
+                                demystify some of the trickier...</p>
+                            <div class="work d-flex justify-content-around">
+                                <div class="lessons">
+                                    <h2>25</h2>
+                                    <p>SESSIONS DELIVERED</p>
+                                </div>
+                                <div class="lectures">
+                                    <h2>11</h2>
+                                    <p>UPCOMING SESSSIONS</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-yellow w-100">VIEW PROFILE</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="tutor_card">
+                            <div class="tutor_img">
+                                <img src="../images/vs.png" alt="">
+                            </div>
+                            <div class="wish_list flex-center">
+                                <img class="fav m-0" src="../images/star.png" alt="">
+                            </div>
+                            <h2 class="tutor_name">Alice.W</h2>
+                            <div class="reviews d-flex align-items-center justify-content-center">
+                                <div class="my-rating readOnly mb-2 me-2"></div>
+                                <span class="rating">4.9</span>
+                                <span class="review_quantity">(79 Reviews)</span>
+                            </div>
+                            <p class="last_delivered">Last session delivered: <b>11 Aug 2022</b> </p>
+                            <div class="subjects">
+                                <span class="subject">Biology</span>
+                                <span class="subject">Physics</span>
+                                <span class="subject">Chemistry</span>
+                                <span class="subject">Travel</span>
+                            </div>
+                            <p class="short_bio">Hi, I'm Niamh and I hope to use my experience of exams to help
+                                demystify some of the trickier...</p>
+                            <div class="work d-flex justify-content-around">
+                                <div class="lessons">
+                                    <h2>25</h2>
+                                    <p>SESSIONS DELIVERED</p>
+                                </div>
+                                <div class="lectures">
+                                    <h2>11</h2>
+                                    <p>UPCOMING SESSSIONS</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-yellow w-100">VIEW PROFILE</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="tutor_card">
+                            <div class="tutor_img">
+                                <img src="../images/vs.png" alt="">
+                            </div>
+                            <div class="wish_list flex-center">
+                                <img class="fav m-0" src="../images/star.png" alt="">
+                            </div>
+                            <h2 class="tutor_name">Alice.W</h2>
+                            <div class="reviews d-flex align-items-center justify-content-center">
+                                <div class="my-rating readOnly mb-2 me-2">
+
+                                </div>
+                                <span class="rating">4.9</span>
+                                <span class="review_quantity">(79 Reviews)</span>
+                            </div>
+                            <p class="last_delivered">Last session delivered: <b>11 Aug 2022</b> </p>
+                            <div class="subjects">
+                                <span class="subject">Biology</span>
+                                <span class="subject">Physics</span>
+                                <span class="subject">Chemistry</span>
+                                <span class="subject">Travel</span>
+                            </div>
+                            <p class="short_bio">Hi, I'm Niamh and I hope to use my experience of exams to help
+                                demystify some of the trickier...</p>
+                            <div class="work d-flex justify-content-around">
+                                <div class="lessons">
+                                    <h2>25</h2>
+                                    <p>SESSIONS DELIVERED</p>
+                                </div>
+                                <div class="lectures">
+                                    <h2>11</h2>
+                                    <p>UPCOMING SESSSIONS</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-yellow w-100">VIEW PROFILE</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="tutor_card">
+                            <div class="tutor_img">
+                                <img src="../images/vs.png" alt="">
+                            </div>
+                            <div class="wish_list flex-center">
+                                <img class="fav m-0" src="../images/star.png" alt="">
+                            </div>
+                            <h2 class="tutor_name">Alice.W</h2>
+                            <div class="reviews d-flex align-items-center justify-content-center">
+                                <div class="my-rating readOnly mb-2 me-2"></div>
+                                <span class="rating">4.9</span>
+                                <span class="review_quantity">(79 Reviews)</span>
+                            </div>
+                            <p class="last_delivered">Last session delivered: <b>11 Aug 2022</b> </p>
+                            <div class="subjects">
+                                <span class="subject">Biology</span>
+                                <span class="subject">Physics</span>
+                                <span class="subject">Chemistry</span>
+                                <span class="subject">Travel</span>
+                            </div>
+                            <p class="short_bio">Hi, I'm Niamh and I hope to use my experience of exams to help
+                                demystify some of the trickier...</p>
+                            <div class="work d-flex justify-content-around">
+                                <div class="lessons">
+                                    <h2>25</h2>
+                                    <p>SESSIONS DELIVERED</p>
+                                </div>
+                                <div class="lectures">
+                                    <h2>11</h2>
+                                    <p>UPCOMING SESSSIONS</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-yellow w-100">VIEW PROFILE</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="tutor_card">
+                            <div class="tutor_img">
+                                <img src="../images/vs.png" alt="">
+                            </div>
+                            <div class="wish_list flex-center">
+                                <img class="fav m-0" src="../images/star.png" alt="">
+                            </div>
+                            <h2 class="tutor_name">Alice.W</h2>
+                            <div class="reviews d-flex align-items-center justify-content-center">
+                                <div class="my-rating readOnly mb-2 me-2"></div>
+                                <span class="rating">4.9</span>
+                                <span class="review_quantity">(79 Reviews)</span>
+                            </div>
+                            <p class="last_delivered">Last session delivered: <b>11 Aug 2022</b> </p>
+                            <div class="subjects">
+                                <span class="subject">Biology</span>
+                                <span class="subject">Physics</span>
+                                <span class="subject">Chemistry</span>
+                                <span class="subject">Travel</span>
+                            </div>
+                            <p class="short_bio">Hi, I'm Niamh and I hope to use my experience of exams to help
+                                demystify some of the trickier...</p>
+                            <div class="work d-flex justify-content-around">
+                                <div class="lessons">
+                                    <h2>25</h2>
+                                    <p>SESSIONS DELIVERED</p>
+                                </div>
+                                <div class="lectures">
+                                    <h2>11</h2>
+                                    <p>UPCOMING SESSSIONS</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-yellow w-100">VIEW PROFILE</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="tutor_card">
+                            <div class="tutor_img">
+                                <img src="../images/vs.png" alt="">
+                            </div>
+                            <div class="wish_list flex-center">
+                                <img class="fav m-0" src="../images/star.png" alt="">
+                            </div>
+                            <h2 class="tutor_name">Alice.W</h2>
+                            <div class="reviews d-flex align-items-center justify-content-center">
+                                <div class="my-rating readOnly mb-2 me-2"></div>
+                                <span class="rating">4.9</span>
+                                <span class="review_quantity">(79 Reviews)</span>
+                            </div>
+                            <p class="last_delivered">Last session delivered: <b>11 Aug 2022</b> </p>
+                            <div class="subjects">
+                                <span class="subject">Biology</span>
+                                <span class="subject">Physics</span>
+                                <span class="subject">Chemistry</span>
+                                <span class="subject">Travel</span>
+                            </div>
+                            <p class="short_bio">Hi, I'm Niamh and I hope to use my experience of exams to help
+                                demystify some of the trickier...</p>
+                            <div class="work d-flex justify-content-around">
+                                <div class="lessons">
+                                    <h2>25</h2>
+                                    <p>SESSIONS DELIVERED</p>
+                                </div>
+                                <div class="lectures">
+                                    <h2>11</h2>
+                                    <p>UPCOMING SESSSIONS</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-yellow w-100">VIEW PROFILE</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="tutor_card">
+                            <div class="tutor_img">
+                                <img src="../images/vs.png" alt="">
+                            </div>
+                            <div class="wish_list flex-center">
+                                <img class="fav m-0" src="../images/star.png" alt="">
+                            </div>
+                            <h2 class="tutor_name">Alice.W</h2>
+                            <div class="reviews d-flex align-items-center justify-content-center">
+                                <div class="my-rating readOnly mb-2 me-2"></div>
+                                <span class="rating">4.9</span>
+                                <span class="review_quantity">(79 Reviews)</span>
+                            </div>
+                            <p class="last_delivered">Last session delivered: <b>11 Aug 2022</b> </p>
+                            <div class="subjects">
+                                <span class="subject">Biology</span>
+                                <span class="subject">Physics</span>
+                                <span class="subject">Chemistry</span>
+                                <span class="subject">Travel</span>
+                            </div>
+                            <p class="short_bio">Hi, I'm Niamh and I hope to use my experience of exams to help
+                                demystify some of the trickier...</p>
+                            <div class="work d-flex justify-content-around">
+                                <div class="lessons">
+                                    <h2>25</h2>
+                                    <p>SESSIONS DELIVERED</p>
+                                </div>
+                                <div class="lectures">
+                                    <h2>11</h2>
+                                    <p>UPCOMING SESSSIONS</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-yellow w-100">VIEW PROFILE</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="tutor_card">
+                            <div class="tutor_img">
+                                <img src="../images/vs.png" alt="">
+                            </div>
+                            <div class="wish_list flex-center">
+                                <img class="fav m-0" src="../images/star.png" alt="">
+                            </div>
+                            <h2 class="tutor_name">Alice.W</h2>
+                            <div class="reviews d-flex align-items-center justify-content-center">
+                                <div class="my-rating readOnly mb-2 me-2"></div>
+                                <span class="rating">4.9</span>
+                                <span class="review_quantity">(79 Reviews)</span>
+                            </div>
+                            <p class="last_delivered">Last session delivered: <b>11 Aug 2022</b> </p>
+                            <div class="subjects">
+                                <span class="subject">Biology</span>
+                                <span class="subject">Physics</span>
+                                <span class="subject">Chemistry</span>
+                                <span class="subject">Travel</span>
+                            </div>
+                            <p class="short_bio">Hi, I'm Niamh and I hope to use my experience of exams to help
+                                demystify some of the trickier...</p>
+                            <div class="work d-flex justify-content-around">
+                                <div class="lessons">
+                                    <h2>25</h2>
+                                    <p>SESSIONS DELIVERED</p>
+                                </div>
+                                <div class="lectures">
+                                    <h2>11</h2>
+                                    <p>UPCOMING SESSSIONS</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-yellow w-100">VIEW PROFILE</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="tutor_card">
+                            <div class="tutor_img">
+                                <img src="../images/vs.png" alt="">
+                            </div>
+                            <div class="wish_list flex-center">
+                                <img class="fav m-0" src="../images/star.png" alt="">
+                            </div>
+                            <h2 class="tutor_name">Alice.W</h2>
+                            <div class="reviews d-flex align-items-center justify-content-center">
+                                <div class="my-rating readOnly mb-2 me-2"></div>
+                                <span class="rating">4.9</span>
+                                <span class="review_quantity">(79 Reviews)</span>
+                            </div>
+                            <p class="last_delivered">Last session delivered: <b>11 Aug 2022</b> </p>
+                            <div class="subjects">
+                                <span class="subject">Biology</span>
+                                <span class="subject">Physics</span>
+                                <span class="subject">Chemistry</span>
+                                <span class="subject">Travel</span>
+                            </div>
+                            <p class="short_bio">Hi, I'm Niamh and I hope to use my experience of exams to help
+                                demystify some of the trickier...</p>
+                            <div class="work d-flex justify-content-around">
+                                <div class="lessons">
+                                    <h2>25</h2>
+                                    <p>SESSIONS DELIVERED</p>
+                                </div>
+                                <div class="lectures">
+                                    <h2>11</h2>
+                                    <p>UPCOMING SESSSIONS</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-yellow w-100">VIEW PROFILE</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- pagination -->
+                <div class="pagination_section">
+                    <a class="page_item flex-center btn" href="#">
+                        <img src="../images/prev.png" alt="">
+                    </a>
+                    <a class="page_item flex-center" href="#">1</a>
+                    <a class="page_item flex-center" href="#">2</a>
+                    <a class="page_item flex-center" href="#">3</a>
+                    <a class="page_item flex-center" href="#">4</a>
+                    <a class="page_item flex-center" href="#">5</a>
+                    <a class="page_item flex-center" href="#">6</a>
+                    <a class="page_item flex-center btn" href="#" style="transform: rotate(180deg);">
+                        <img src="../images/prev.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="quid-tutor">
+        <div class="container footer_padding">
+            <div class="row">
+                <div class="col-lg-10 col-md-9">
+                    <h2 class="section_title">Want to teach in QuidTutor?</h2>
+                    <p class="black">QuidTutor collaborate professional and talented tutors from all over the world! Join us right now!</p>
+                </div>
+                <div class="col-lg-2 col-md-3 flex-center">
+                    <a href="#" class="btn btn-yellow">Apply NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer_padding">
+            <div class="row-1 row">
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0">
+                    <h2 class="title_lg text-pink">Connect <br>With Us</h2>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0">
+                    <h3 class="section_title">Company</h3>
+                    <div class="list">
+                        <a href="#" class="links">About us</a>
+                        <a href="#" class="links">Pricing</a>
+                        <a href="#" class="links">Careers</a>
+                        <a href="#" class="links">Blog</a>
+                        <a href="#" class="links">Contact us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0">
+                    <h3 class="section_title">Solutions</h3>
+                    <div class="list">
+                        <a href="#" class="links">Find a tutor</a>
+                        <a href="#" class="links">How it works </a>
+                        <a href="#" class="links">Prices</a>
+                        <a href="#" class="links">Resources</a>
+                        <a href="#" class="links">For schools</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0 text-xl-end text-start">
+                    <h3 class="section_title">Courses</h3>
+                    <div class="list">
+                        <a href="#" class="links">Khan Kids app</a>
+                        <a href="#" class="links">Science & engineering</a>
+                        <a href="#" class="links">Computing</a>
+                        <a href="#" class="links">Arts & humanities</a>
+                        <a href="#" class="links">Economics & finance</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row-2 row">
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info">
+                        <h3>REACH US AT</h3>
+                        <p>Berger Delhi One Floor 19, C-001/A2, </p>
+                        <p>Sector 16B, Noida, Uttar Pradesh 201301</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info">
+                        <h3>CALL US AT</h3>
+                        <p> +91 33 25745565110 </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info">
+                        <h3>SEND US EMAIL AT</h3>
+                        <p>info@quidtutor.com </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info text-xl-end text-start">
+                        <div class="socials">
+                            <a href="#" class="social-link social_link_nomargin"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <p>© 2022 quidtutor All Rights Reserved</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.star-rating-svg.js"></script>
+    <script src="../js/slider.js"></script>
+    
+    <script src="../js/jquery.star-rating-svg.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#search").select2();
+        });
+
+        $('.cart_box').fadeOut(0)
+        $('.cart_link').click(function (e) {
+        e.preventDefault()
+        $('.notify_box').fadeOut(0)
+        $('.cart_box').fadeToggle(200)
+        })
+        $('.close_popup_cart').click(function (e) {
+        e.preventDefault()
+        $('.cart_box').fadeOut(200)
+
+        })
+
+        $('.notify_box').fadeOut(0)
+        $('.notification_link').click(function (e) {
+        e.preventDefault()
+        $('.notify_box').fadeToggle(200)
+        $('.cart_box').fadeOut(0)
+
+        })
+        $('.close_popup_notify').click(function (e) {
+        e.preventDefault()
+        $('.notify_box').fadeOut(200)
+        })
+        
+        document.getElementById('#')
+
+
+        let fav = document.querySelectorAll(".wish_list");
+        fav.forEach(star => {
+        star.addEventListener("click", () => {
+        star.classList.toggle("active");
+        })
+        })
+       
+    </script>
+
+</body>
+</html>

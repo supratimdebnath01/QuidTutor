@@ -1,0 +1,936 @@
+@media (min-width: 1200px){
+	.custom_container{
+		max-width: 1150px !important;
+	}
+}
+
+@media (max-width: 1600px) {
+
+    .section_title{font-size: 40px;}
+    .header_section .side-imgs.left_img {
+        width: 268px;
+        left: 0px;
+        bottom: -126px;
+    }
+    .header_section .side-imgs.right_img {
+        width: 268px;
+        right: -41px;
+        bottom: 0px;
+    }
+    .tutor_main .select2-container--default .select2-selection--single{width: 100%;}
+    
+    
+}
+
+@media (max-width: 1440px) {
+
+    nav .btn {font-size: 14px;}
+    .tutor_header_section .hero_heading {font-size: 50px;}
+    .tutor_main .green_ele_right {display: none;}
+    footer .title_lg {font-size: 40px !important;}
+    footer .info p {font-size: 15px !important;}
+    footer .links {font-size: 15px !important;}
+    .profile_main .green_ele_right{display: none;}
+}
+
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: 10px;
+        padding-left: 0px;
+        margin-right: 10px;
+    }
+   
+    .tutor_header_section .girl_img {width: 300px;}
+    .lession_section .groups {
+        position: relative;
+        width: 74%;
+        margin: 0 auto;
+    }
+    .lession_section .groups .arrow.arrow_left {left: 180px; }
+    .lession_section .groups .arrow.arrow_right {right: 180px; }
+    .find_tutur_section {
+        background-color: #00D9B7;
+        padding: 75px 0 75px;
+        position: relative;
+    }
+    .header_section .container {padding-top: 90px;}
+    .header_section .side-imgs.right_img {
+        right: -100px;
+        bottom: 0;
+    }
+    .header_section .side-imgs.left_img {
+        width: 285px;
+        left: 35px;
+        bottom: -133px;
+    }
+    .header_section .yellow_ele {opacity: .6;}
+    .improve_grades .section_title {
+        margin-bottom: 35px;
+        margin-left: 20px;
+    }
+    .tutor-section img.yellow_bg {width: 480px;}
+    .tutor-section img.girl_vector {width: 360px;}
+    .section_title {font-size: 40px;}
+    .hero_heading {font-size: 50px;}
+    nav .btn i {margin-right: 4px;}
+    select.form-select {
+        height: 55px !important;
+        width: 215px;
+    }
+    .btn.btn-pink {
+        padding: 10px 20px;
+        width: 185px;
+    }  
+    .improve_grades .grades img {
+        align-self: flex-start;
+        margin-right: 15px;
+        padding-left: 30px;
+    }
+    .improve_grades .btn.btn-blue {margin-left: 30px;}
+    .cart_link {margin-right: -15px;}
+    nav .btn {
+        font-size: 14px;
+        margin-left: 0px;
+        height: 43px;
+        padding: 8px 25px !important;
+    }
+    .profile_header_section .profile_name {font-size: 40px;}
+    .profile_header_section .tutor_education {font-size: 18px;}
+    .cource_header .custom_container {
+        max-width: 1150px !important;
+    }
+    
+}
+
+@media (max-width: 1280px) {
+    .header_section .form-section .form-title::after {display: none;}
+    .lession_section .groups .arrow.arrow_left, .arrow_right {display: none;}
+    .lession_section .group.group_bottom {margin-top: 0;}
+   .tutor-section .section_title {
+        font-size: 40px;
+        margin-left: 25px;
+    }
+    select.form-select {
+        height: 45px !important;
+        width: 222px;
+    }
+    
+    .btn.btn-pink {
+        padding: 10px 20px;
+        width: 122px;
+    }
+    .tutor-section .quality, .btn.btn-blue {margin-left: 25px;}
+    .improve_grades .text_box {width: 100%;}
+   
+    .improve_grades .grades img {
+        align-self: flex-start;
+        margin-right: 18px;
+        padding-left: 20px;
+    }
+    .tutor-section .paragraph {
+        font-size: 16px;
+        font-weight: 400;
+        color: #777;
+        margin-left: 25px;
+    }
+    .improve_grades .section_title {font-size: 38px;}
+    .section_title {font-size: 40px;}
+    .register_section {padding: 50px;}
+    .register_section .img img.green_vector {width: 530px;}
+    .register_section .img img.girl_img {width: 380px;}
+    .register_section .img img.yellow_ele {
+        bottom: -55px;
+        right: 40px;
+    }
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: 5px;
+        padding-left: 10px;
+        margin-right: 0px;
+    }
+    .tutor_cards .tutor_card {padding: 20px;}
+    .tutor_main .form a.btn {width: 185px !important;}
+    .pricing_main .section .text-content {
+        width: auto !important;
+        max-width: none;
+    }
+    .pricing_main .section_1 .green_ele {
+        bottom: 30px !important;
+        left: -83px !important;
+    }
+    .cource_main .box {order: 1;}
+    .cource_main .text-content {order: 2;}
+    .cource_main .buy_cource {margin: 50px 20px !important;}
+    .cource_main .green_ele_right{display: none;}
+}
+
+@media (max-width: 1199.98px) {
+
+    .header_margin { margin: 0px 20px !important; }
+    nav .collapse-content.active {transform: translateX(0);}
+    nav .collapse-content  {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        padding: 20px;
+        z-index: 11;
+        transform: translateX(-100%);
+        transition: .4s;
+    }
+    nav .btn {font-size: 14px;}
+    .navbar-toggler i { font-size: 25px;}
+    nav .close_nav {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 25px;
+        cursor: pointer;
+        transition: .2s;
+    }
+    nav .collapse-content .active {transform: translateX(0);}
+    nav .navbar-brand {
+        font-size: 35px;
+        font-weight: 700;
+        color: #000;
+    }
+    nav .navbar-nav {
+        margin-top: 30px;
+        text-align: center;
+    }
+    nav .nav-link {margin: 12px 0;}
+    .header_section .yellow_ele {display: none;}
+    .header_section .container {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        position: relative;
+    }
+    .header_section .content {height: 470px;}
+    .hero_heading {
+        font-size: 45px;
+        line-height: 110%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+        margin-bottom: 8px;
+        font-weight: bold;
+        padding: 0 20px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero_text {margin: 0 auto 30px;}
+    .header_section .form-section .form-title::after {display: none;}
+    .header_section .form-section .form-title {height: 120px;}
+    .header_section form {height: 120px;}
+    select.form-select, input.form-control { height: 45px !important;}
+    .btn.btn-pink {padding: 10px 20px;}
+    .header_section .side-imgs.right_img {display: none;}
+    .section_title {font-size: 35px;}
+    .lession_section .groups .arrow.arrow_left,.arrow.arrow_right {display: none;}
+    .lession_section .group.group_bottom {margin-top: 0;}
+    .lession_section .group .group_text {font-size: 18px;}
+    .tutor-section {padding: 60px 0 40px;}
+    .tutor-section img {
+        display: block;
+        margin: 0 auto;
+    }
+    .tutor-section .section_title {
+        font-size: 37px;
+        margin-left: 25px;
+    }
+    .tutor_header_section .girl_img{display: none;}
+    .tutor-section img.yellow_bg {width: 400px;}
+    .tutor-section img.girl_vector {width: 300px;}
+    .tutor-section div.text {margin: 0 auto 50px;}
+    .btn.btn-blue {
+        padding: 10px 25px;
+        font-size: 15px !important;
+    }
+    .tutor-section .quality h2 {font-size: 50px;}
+    .register_section {
+        padding-top: 70px;
+        padding-bottom: 7px;
+    }
+    .improve_grades .img_section img.girl {
+        width: 400px;
+        padding: 8px 8px;
+    }
+    .improve_grades .img_section img.boy {
+        padding: 8px 8px;
+        width: 250px;
+    }
+    .improve_grades .img_section img.green_ele {
+        margin-top: 309px;
+        margin-left: 54px;
+        z-index: -1;
+    }
+    .improve_grades .img_section img.sign {
+        margin-top: 390px;
+        margin-left: 136px;
+        width: 120px;
+    }
+    .improve_grades .text_box {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .improve_grades .section_title {font-size: 35px;}
+    .improve_grades .text_box {margin-left: 0px;}
+    .improve_grades .grades img {width: 60px;}
+    .improve_grades .paragraph{font-size: 14px;} 
+    .improve_grades .grades .heading {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    .register_section .img img.green_vector {width: 450px;}
+    .register_section .img img.girl_img {width: 350px;}
+    .register_section .img img.yellow_ele{display: none;}
+    .register_section .section_title{font-size: 34px;}
+    .cource_carousel .swiper-btn{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+    
+    .cource_carousel .swiper-button1 {
+        right: -40px;
+        left: auto;
+        top: 50%;
+        padding: 10px;
+    }
+    .cource_carousel .swiper-button2 {
+        left: -40px;
+        right: auto;
+        top: 50%;
+        padding: 10px;
+    }
+    .feedback_section .swiper-btn{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .feedback_section .swiper-button1 {
+        right: -40px;
+        left: auto;
+        top: 50%;
+        padding: 10px;
+    }
+    .feedback_section .swiper-button2 {
+        left: -40px;
+        right: auto;
+        top: 50%;
+        padding: 10px;
+    }
+    .feedback_section .swiper-slide .card {height: auto;}
+    .btn.btn-yellow {
+        padding: 11px 20px;
+        font-size: 15px;
+    }
+    .tutor_header_section .yellow_ele {display: none;}
+    .tutor_header_section .hero_heading {font-size: 45px;}
+    .tutor_header_section .hero_text {margin: 0 auto 30px;}
+    .tutor_main .form a.btn {width: 200px !important;}
+    .quid-tutor .section_title {font-size: 35px;}
+    .quid-tutor .btn.btn-yellow {
+        padding: 11px 20px;
+        font-size: 15px;
+    }
+    .auth_section .section_title{font-size: 35px;}
+    .login_section {padding: 50px 0 0px !important;}
+    .auth_section .login_section .login_card .card_text {
+        font-size: 15px;
+        opacity: .8;
+        margin-bottom: 25px;
+        color: #fff;
+        padding: 0;
+    }
+    .profile_header_section .profile_name {font-size: 34px;}
+    .profile_header_section .tutor_education {font-size: 18px;}    
+    .send_msg .btn.btn-pink {padding: 10px 20px;}
+    .profile_main .msg_section {padding: 30px !important;}
+    .pricing_main .text-content .section_title {font-size: 33px;} 
+     .about_us .section_2 .step-reverse{
+        flex-direction: column-reverse !important;
+        display: flex !important;
+    }
+    .about_us .section_4 .step-reverse{
+        flex-direction: column-reverse !important;
+        display: flex !important;
+    }
+    .about_us .imgs .green_vector {
+        top: -60px;
+        right: 290px;
+        width: 530px;
+        transform: rotate(300deg);
+    }
+    .about_us .section_2 {
+        padding: 0 0 35px !important;
+        margin-bottom: 70px;
+    }
+    .pc_img{padding-left: 5%;}
+   .imgs.goal{padding-left: 10% !important;}
+   .yellow-goal{
+    left: 30px !important; 
+    top: -10px;
+    width: "350px" !important;
+   }
+   .our_mission {margin-top: 50px;}
+   #afford{margin-top: 60px !important;}
+   .about_us .imgs {
+	height: 490px;
+	position: relative;
+	padding-left: 50px;
+    }
+    #goal{padding-left: 0 !important;}
+    .about_us .section_3 {padding: 60px 0 70px !important;}
+    .about_us .section_4 {padding: 100px 0 80px !important;}
+    .cource_main .cource_carousel .swiper-btn{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+    
+    .cource_main .cource_carousel .swiper-button1 {
+        right: -40px;
+        left: auto;
+        top: 50%;
+        padding: 10px;
+    }
+    .cource_main .cource_carousel .swiper-button2 {
+        left: -40px;
+        right: auto;
+        top: 50%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .hero_heading {font-size: 39px;}
+    .hero_text {font-size: 14px;}
+    .header_section .form-title .text {font-size: 18px;}
+    .header_section .form-title .green-txt {font-size: 35px;}
+    .header_section .form-section form {
+        flex-direction: row;
+        height: 110px;
+        padding: 20px;
+    }
+    .header_section .form-section .form-title {height: 110px;}
+    .header_section .container {
+        padding-top: 60px;
+        padding-bottom: 5px;
+    }
+    .header_section form {width: calc(750px - 210px);}
+    .select.form-select {height: 45px !important;}
+     .btn.btn-pink {
+        width: 47%;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .header_section .side-imgs.left_img {
+        width: 250px;
+        bottom: -117px;
+    }
+    .lession_section {padding: 60px 0 60px;}
+    .lession_section .section_title{font-size: 30px;}
+    .lession_section .groups .img {
+        width: 130px;
+        height: 130px;
+    }
+    .tutor-section img.green_ele {left: 12px;}
+    .tutor-section img.yellow_bg {
+        width: 345px;
+        left: 0px;
+    }
+    .tutor-section img.girl_vector {left: 30px;}
+    .tutor-section .section_title {
+        font-size: 30px;
+        margin: 0;
+    }
+    .tutor-section .quality, .btn.btn-blue {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .tutor-section .paragraph {
+        font-size: 16px;
+        font-weight: 400;
+        color: #777;
+        margin-left: 5px;
+    }
+    
+    .tutor-section .quality h2 {font-size: 40px;}
+    .tutor-section .quality p {font-size: 14px;}
+    .tutor-section {padding: 60px 0 0;}
+    .find_tutur_section {padding: 60px 0 30px;}
+    .find_tutur_section .section_title {font-size: 30px;}
+    .improve_grades .img_section img.girl {
+        width: 300px;
+        margin-top: 100px;
+    }
+    .improve_grades .img_section img.boy {
+        margin-top: 242px;
+        margin-left: 85px;
+    }
+    .improve_grades .section_title {
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    .improve_grades {padding: 100px 0 50px;}
+    .cources_section .section_title {font-size: 30px;}
+    .cources_section {
+        padding: 60px 0 40px;
+        position: relative;
+    }
+    .register_section .section_title{font-size: 30px;}
+    .register_section .img {height: 393px;}
+    .register_section .img img.green_vector {width: 350px;}
+    .register_section .img img.girl_img {width: 281px;}
+    .register_section .text {margin-top: 40px;}
+    .feedback_section .section_title{font-size: 30px;}
+    .quid-tutor .section_title{font-size: 30px;}
+    .quid-tutor .black{font-size: 14px;}
+    footer .title_lg{font-size: 30px;}
+    footer {padding: 8px 0 80px;}
+    footer .row-1 {margin-bottom: 15px;}
+    .tutor_main form {
+        display: block;
+        padding: 25px 25px !important;
+        margin: 15px auto !important;
+    }
+    .tutor_main select.form-select {
+        height: 45px !important;
+        font-size: 14px;
+        padding-top: 8px;
+        margin-bottom: 12px;
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+     .tutor_main .form a.btn {
+        margin-left: 0;
+        width: 100% !important;
+        margin-bottom: 12px;
+    }
+    footer .title_lg {font-size: 30px !important;}
+    footer {padding: 20px 0 70px !important;}
+    footer .row-1 {margin-bottom: 20px !important;}
+    .auth_section .section_title {font-size: 30px;}
+    .auth_section .login_card .card_title {font-size: 20px !important;}
+    .auth_section .login_card .card_text {padding: 0px;}
+    .auth_section .login_section .btn.btn-pink{padding: 10px 10px;}
+    .auth_section .login_section .btn.btn-yellow2{padding: 10px 10px;}
+    .profile_header_section .img-content img {width: 280px;}
+    .profile_header_section .yellow_ele{display: none;}
+    .profile_header_section .img-content .tutor_img {
+        bottom: 113px !important;
+        left: 39px !important;
+        width: 280px;
+    }
+    .profile_main .key_points {
+        margin-top: 60px;
+        margin-bottom: 70px;
+    }
+    .profile_main .send_msg .msg_section {margin-top: 40px;}
+    .profile_header_section{height: 410px !important;}
+    .rating_review .feedbacks {margin-top: 42px;}
+    .rating_review .heading{text-align: center;}
+    .select2-container--default .select2-selection--single {
+        transform: translateY(-8px);
+        width: 100%;
+    }
+    .tutor_main .select2-container--default .select2-selection--single{height: 50px !important;}
+    #ftr{
+            width: 426px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+    }
+    .pricing_main .section_4 .black_ele {right: 15px !important;}
+    .pricing_main .text-content .section_title {font-size: 30px !important;}
+    .pricing_main .plan {
+        height: 667px;
+        width: 530px;
+        max-width: 100%;
+        border-radius: 20px;
+        position: relative;
+        margin-left: 12%;
+    }
+    .about_us .section_title {font-size: 30px;}
+    .yellow-goal {left: 10px !important;}
+    .about_us .imgs .green_vector {
+       right: 100px;
+        width: 525px !important;
+        transform: rotate(290deg);
+    }
+    #tutor{padding-right: 60px;}
+    .about_us .imgs{padding: 0;}
+    #goal{top: -20px;}
+    .cource_header .hero_title {
+        font-size: 35px !important;
+    }
+    .cource_header .yellow_ele{
+        display: none;
+    }
+}   
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .tutor_header_section {padding: 130px 0 80px !important;}
+    .register_section .section_title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .tutor_header_section .hero_heading {font-size: 40px;}
+   .profile_header_section p{font-size: 14px;}
+   .rating_review p.feedback_txt{font-size: 14px;}
+   .auth_section .login_card.b-pink {height: 396px;}
+   .auth_section .login_section .btn.btn-pink.p_log {margin: 45px 0 !important;}
+    p {font-size: 14px !important;}
+    .pricing_main .section_1 .black_ele {
+        right: 60px !important;
+        top: 20px;
+    }
+    .about_us .section_4 {padding: 100px 0 60px !important;}
+    
+}   
+
+
+
+@media (max-width: 767.98px) {
+
+    .hero_heading {font-size: 30px !important;}
+    .header_section .form-section .form-title {
+        height: 190px;
+        padding: 10px;
+        width: 150px;
+    }
+    .header_section form {width: calc(750px - 400px);}
+    .header_section .form-section form {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+    .header_section .form-title .text {font-size: 16px;}
+    .header_section .form-title .green-txt {font-size: 30px;}
+    select.form-select {
+        margin-bottom: 10px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .btn.btn-pink {
+        padding: 10px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .header_section .side-imgs.left_img {display: none;}
+    .lession_section .group .group_text {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .tutor-section .img_section {display: none;}
+    .tutor_header_section {padding: 110px 0 80px !important;}
+    .tutor-section .section_title{text-align: center;}
+    .tutor-section .btn.btn-blue {
+        width: 40%;
+        margin-left: 150px;
+    }
+    .improve_grades .img_section {display: none;}
+    .improve_grades .section_title {text-align: left;}
+    .improve_grades .btn.btn-blue {
+        width: 40%;
+        margin-left: 140px;
+    }
+    .register_section .section_title {
+        font-size: 30px;
+        text-align: center;
+    }
+    .register_section .btn.btn-blue {margin-left: 180px;}
+    .register_section .img img.black_dotted {
+        top: 0px;
+        z-index: 1;
+        left: 50px;
+    }
+    .register_section .img img.green_vector {margin-left: 24%;}
+    .register_section .img img.girl_img {left: 24%;}
+    .register_section {
+        padding-top: 30px;
+        padding-bottom: 7px;
+    }
+    .quid-tutor .section_title{text-align: center;}
+    .quid-tutor .black {text-align: center;}    
+    .tutor-section .section_title {
+        font-size: 25px ;
+        text-align: left;
+    }
+    .container {padding: 0 20px;}
+    .login_section {padding: 50px 0 60px !important;}
+    .profile_header_section .img-content img {
+        width: 250px;
+        margin-left: 20%;
+    }
+    .profile_header_section .img-content .tutor_img {
+        bottom: 25px;
+        left: 40px;
+        width: 250px;
+    }
+    .tutor_main .select2-container--default .select2-selection--single {width: 100%;}
+    .profile_header_section .img-content .tutor_img {
+        bottom: 150px !important;
+        left: 39px !important;  
+    }
+    .profile_header_section{height: 570px !important;}
+    .mobile_padding {
+        padding: 0 10px !important;
+        margin: -120px auto;
+    }
+    .profile_name {font-size: 30px !important;}
+    .profile_main .key_point {height: 130px;}
+    .profile_main .key_point .num {font-size: 30px;}
+    .rating_review .rating .total_rating {font-size: 60px !important;}
+    .rating_review {
+        padding: 30px 30px !important;
+        margin-top: 20px !important;
+    }
+    .pricing_main .plan {margin-left: 0;}
+    .pricing_main .section_1 .black_ele {
+        right: -10px !important;
+        top: 20px;
+    }
+    .pricing_main .section_1 .green_ele {
+        bottom: 30px !important;
+        left: -110px !important;
+    }
+    .about_us .imgs .green_vector {
+        right: 40px;
+        width: 430px !important;
+        transform: rotate(290deg);
+    }
+    .about_us .section_2 {
+        padding: 0 0 10px !important;
+        margin-bottom: 70px;
+    }
+    #goal {
+        top: 25px;
+        width: 340px;
+        left: 70px;
+    }
+    
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .header_section .container {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .header_section .hero_text {
+        margin: 0 auto 30px;
+        font-size: 15px;
+    }
+    .tutor-section .section_title {
+        font-size: 28px;
+        margin: 0;
+    }
+    .improve_grades .section_title {
+        font-size: 30px;
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+    #qualify{margin-top: -60px;}
+    #affordable{margin-top: -10px !important;}
+}
+
+
+
+@media (max-width: 575.98px) {
+
+    nav .navbar-brand {font-size: 25px !important;}
+    .header_margin {margin: 0px 0px !important;}
+    .header_section .container {
+        padding-top: 45px;
+        padding-bottom: 0px;
+    }
+    .header_section .form-section {margin: 0 10px;}
+    .header_section .form-section .form-title {
+        height: 185px;
+        padding: 10px;
+        width: 125px;
+    }
+    .header_section form {width: calc(730px - 430px);}
+    .lession_section .group .group_text {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .lession_section .section_title {font-size: 25px;}
+    .lession_section {padding: 60px 0 40px;}
+    .lession_section .groups {width: 85%;}
+    .tutor-section div.text {margin: 0px auto 30px;}
+    .tutor-section .btn.btn-blue {
+        width: 50%;
+        margin-left: 100px;
+    }
+    .tutor_main .form {padding: 0 10px;}
+    .tutor_card {margin: 82px 10px 0;}
+    .find_tutur_section .section_title {font-size: 25px;}
+    .find_tutur_section .content .section_title {margin-bottom: 15px;}
+    .find_tutur_section {padding: 55px 0 25px;}
+    .improve_grades .section_title {
+        font-size: 28px;
+        text-align: left;
+    }
+    .improve_grades .btn.btn-blue {
+        width: 44%;
+        margin-left: 130px;
+    }
+    .improve_grades {padding: 80px 0 35px;}
+    .cources_section .section_title {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .cources_section .cource_card {
+        position: relative;
+        width: 80%;
+        cursor: pointer;
+        padding: 20px;
+        border-radius: 30px;
+        border: 2px dashed #A1A1A1;
+        background-color: #fff;
+        margin-left: 45px;
+    }
+    .cource_carousel .swiper-button1 {
+        right: -3px;
+        left: auto;
+        top: 50%;
+        padding: 10px;
+        z-index: 10;
+    }
+    .cource_carousel .swiper-button2 {
+        left: -3px;
+        right: auto;
+        top: 50%;
+        padding: 10px;
+        z-index: 10;
+    }
+    .register_section .section_title {
+        font-size: 25px;
+        text-align: inherit;
+    }
+    .register_section .img {display: none;}
+    .register_section .btn.btn-blue {margin-left: 90px;}
+    .feedback_section {padding: 50px 10px;}
+    .feedback_section .section_title {font-size: 25px;}
+    .feedback_section .swiper-slide .card {
+        height: auto;
+        width: 350px;
+        margin-left: 35px;
+    }
+    .feedback_section .swiper-button1 {
+        left: 407px;
+        right: auto;
+        top: 50%;
+        padding: 10px;
+        z-index: 10;
+    }
+    .feedback_section .swiper-button2 {
+        left: -12px;
+        right: auto;
+        top: 50%;
+        padding: 10px;
+        z-index: 10;
+    }
+    .section_title {font-size: 25px !important;}
+    .auth_section .login_card {margin-top: 30px;}
+    .auth_section .login_card img {width: 55%;}
+    .profile_header_section {height: 590px !important;}
+    .profile_main .key_point {width: 47%;}
+    .rating_review {
+        padding: 30px 20px !important;
+        margin-top: 20px !important;
+    }
+    .rating_review .rating {
+        padding: 20px 20px !important;
+        margin-top: 20px !important;
+    }
+    .common_header .ele_1 {left: -70px !important;}
+    .pricing_main .section_1 .black_ele {display: none;}
+    .common_header {
+        margin-top: 70px;
+        height: 180px;
+    }
+    .pricing_main .imgs {height: 450px !important;}
+    .pricing_main .section_1 .green_ele {display: none;}
+    .pricing_main .plan_1 .side_img {display: none;}
+    .pricing_main .plan .price_box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing_main .plan .plane_footer {width: 290px !important;}
+    .pricing_main .plan_2 .side_img {display: none;}
+    .pricing_main .text-content .section_title {font-size: 25px !important;}
+    .pricing_main .section {padding: 65px 20px !important;}
+    
+    .pricing_main .text-content {
+        max-width: 650px;
+        margin: 20px auto !important;
+    }
+    .bg-pink-zigzag::after, .bg-pink-zigzag::before {
+        content: "";
+        position: absolute;
+        background-image: url(../images/zig_zag_green\ 2.svg);
+        width: 100%;
+        height: 20px;
+        margin: -1px -21px;
+    }
+    .common_header .ele_1 {left: -100px !important;}
+    .common_header .ele_2 {right: -100px !important;}
+    .about_us .imgs .green_vector {
+        right: 25px;
+        width: 400px !important;
+        transform: rotate(290deg);
+    }
+    .about_us .imgs .green_vector {top: -80px ;}
+    .about_us .imgs.tutor_content {height: 380px !important;}
+    #afford {
+        margin-top: -60px !important;
+        padding-left: 20px;
+    }
+    #goal {
+        top: 5px;
+        width: 330px;
+        right: 50px;
+    }
+    .our_mission {margin-top: -10px;}
+    #afford_p{
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    #goal {
+        top: 5px;
+        width: 300px;
+        left: 75px;
+    }
+    .cource_main .cource_carousel .swiper-btn {
+        width: 20px;
+        height: 36px;
+        font-size: 15px;
+    }
+    .cource_main .cource_carousel .swiper-button1 {
+        left: auto;
+        right: -16px;
+        top: 50%;
+        padding: 7px;
+    }
+
+    .cource_main .cource_carousel .swiper-button2 {
+        left: -16px;
+        right: auto;
+        top: 50%;
+        padding: 7px;
+    }
+}

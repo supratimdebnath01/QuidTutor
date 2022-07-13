@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutor Profile | Quid tutor</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../css/star-rating-svg.css">    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl fixed-top">
+        <div class="container-fluid header_margin">
+            <a class="navbar-brand" href="/index.html">QuidTutor</a>
+            <div class="d-flex">
+                <a class="btn bold p-0 d-xl-none" href="./Login.html">
+                    <img src="../images/login.svg" alt="" />LOGIN</a>
+                <button class="navbar-toggler">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div id="navbarSupportedContent"
+                    class="collapse-content justify-content-xl-end d-flex flex-column flex-xl-row">
+                    <div class="close_nav d-xl-none">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <a class="navbar-brand d-xl-none text-xl-start text-center mt-4" href="/index.html">QuidTutor</a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="./find_a_tutor.html" class="nav-link">Find a tutor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pricing.html" class="nav-link">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">For schools</a>
+                        </li>
+                        <a href="./Login.html" class="btn bold p-0 d-xl-inline-block d-none">
+                            <i class="far fa-user"></i>LOGIN</a>
+                        <li class="nav-item position-relative">
+                            <a href="#" class="nav-link icon cart_link">
+                                <i class="fas fa-shopping-cart"></i></a>
+                            <div class="card_box cart_box" style="display: block">
+                                <div class="text-end">
+                                    <a class="close_icon close_popup_cart" href="">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
+                                <div class="text-content">
+                                    <h3 class="title text-dark">Pay as you go plan</h3>
+                                    <p class="caption qty">1Hour x £1</p>
+                                    <div class="cart_item">
+                                        <div class="d-flex align-items-start">
+                                            <img class="item_img me-2" src="../images/cource.png" alt="" />
+                                            <div>
+                                                <h3 class="item_title mb-0 text-dark">
+                                                    The Data Science Course 2021:Complete Data Science
+                                                </h3>
+                                                <p class="qty">1 x $5</p>
+                                            </div>
+                                            <a class="close_icon close_item" href="#">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart_item">
+                                        <div class="d-flex align-items-start justify-content-between">
+                                            <p>TOTAL</p>
+                                            <p>$10</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-pink d-block ms-0">VIEW CART</a>
+                                </div>
+                            </div>
+                        </li>
+                        <a href="#" class="btn btn-blue">Become a tutor</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header section  -->
+    <header class="profile_header_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 img-content position-relative">
+                    <img class="yellow_ele" src="../images/yellow_ele 1.png" alt="">
+                    <img class="yellow_circle" src="../images/yellow_circle.png" alt="">
+                    <img class="tutor_img" src="../images/tutor_profile.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 text mobile_padding">
+                    <div class="reviews d-flex align-items-center">
+                        <div class="my-rating readOnly me-2"></div>
+                        <span class="rating black">4.9</span>
+                        <span class="review_quantity_black">(79 Reviews)</span>
+                    </div>
+                    <h1 class="profile_name">Maggie Strickland</h1>
+                    <p class="tutor_education">Philosophy and Literature (Bachelors) - Warwick University</p>
+                    <div class="teaches d-flex align-items-start">
+                        <p class="teaches-title black me-2">Teaches:</p>
+                        <div class="subjects">
+                            <span class="subject bg-blue text-white">Biology</span>
+                            <span class="subject bg-blue text-white">Physics</span>
+                            <span class="subject bg-blue text-white">Chemsitry</span>
+                            <span class="subject bg-blue text-white">Travel</span>
+                        </div>
+                    </div>
+                    <p class="last_delivered black">Last session delivered: <b>11 Aug 2022</b></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main section start from here -->
+    <main class="profile_main">
+        <img class="green_ele_right" src="../images/green_ele 2.png" alt="">
+        <div class="container">
+            <div class="key_points d-flex justify-content-between flex-wrap">
+                <div class="key_point flex-center">
+                    <h2 class="num">4</h2>
+                    <p class="text">SESSION <br>DELIVERED</p>
+                </div>
+                <div class="key_point flex-center">
+                    <h2 class="num">2</h2>
+                    <p class="text">UPCOMING<br>SESSIONS</p>
+                </div>
+                <div class="key_point flex-center">
+                    <h2 class="num">8</h2>
+                    <p class="text">TOTAL<br>STUDENTS</p>
+                </div>
+                <div class="key_point flex-center">
+                    <h2 class="num">7</h2>
+                    <p class="text">YEARS OF<br>TEACHING</p>
+                </div>
+            </div>
+        </div>
+     <!-- connect with tutor -->
+        <div class="send_msg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <iframe width="100%" height="466px"  src="https://www.youtube-nocookie.com/embed/K4TOrB7at0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="msg_section text-center border-dashed">
+                         <h2 class="top_txt">SEND MAGGIE A MESSAGE</h2>
+                         <form>
+                             <input class="form-control mb-3" type="text" placeholder="YOUR NAME">
+                             <input class="form-control mb-3" type="email" placeholder="YOUR EMAIL">
+                             <textarea name="message" class="message" placeholder="Hi Maggie, I’m looking for a tutor. Are you available for a free meeting? I’d like to find out more about how you work. I’m looking forward to your reply!"></textarea>
+                             <a href="#" class="btn btn-pink w-100 m-0 mt-3">SEND A MESSAGE</a>
+                         </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about me -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="about_me">
+                        <div>
+                            <h2 class="heading">About Me</h2>
+                            <p class="paragraph">Hi! I'm Maggie, Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque
+                                vulputate diam rhoncus faucibus. Curabitur quis varius libero. </p>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien
+                                velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam
+                                rhoncus faucibus. Curabitur quis varius libero. </p>    
+                        </div>
+                        <div class="mt-4">
+                            <h2 class="heading">About my sessions</h2>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit,
+                                aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus.
+                                Curabitur quis varius libero.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tutor cources -->
+        <div class="cources mt-3">
+            <div class="container">
+                <h2 class="heading mb-30">My Sessions</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cource_card">
+                            <span class="card_badge badge_inter">English</span>
+                            <div class="card-img">
+                                <img class="cource-thumnnail" src="../images/cource.png" alt="">
+                                <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                <div class="wish_list flex-center">
+                                    <img src="../images/star.png" alt="" class="fav m-0">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                </h2>
+                                <div class="reviews d-flex align-items-center">
+                                    <div class="my-rating readOnly mb-2 me-2">
+                                    </div>
+                                    <span class="rating">4.9</span>
+                                    <span class="review_quantity">(79 Reviews)</span>
+                                </div>
+                                <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                            </div>
+                            <div class="footer mt-4">
+                                <div class="info d-flex justify-content-between">
+                                    <p class="total_lesson">
+                                        <i class="fas fa-stopwatch"></i>
+                                        02h 15m
+                                    </p>
+                                    <p class="total_student">
+                                        <i class="far fa-user"></i>
+                                        5 Students
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cource_card">
+                            <span class="card_badge badge_inter">Physics</span>
+                            <div class="card-img">
+                                <img class="cource-thumnnail" src="../images/cource.png" alt="">
+                                <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                <div class="wish_list flex-center">
+                                    <img src="../images/star.png" alt="" class="fav m-0">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                </h2>
+                                <div class="reviews d-flex align-items-center">
+                                    <div class="my-rating readOnly mb-2 me-2">
+                                    </div>
+                                    <span class="rating">4.9</span>
+                                    <span class="review_quantity">(79 Reviews)</span>
+                                </div>
+                                <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                            </div>
+                            <div class="footer mt-4">
+                                <div class="info d-flex justify-content-between">
+                                    <p class="total_lesson">
+                                        <i class="fas fa-stopwatch"></i>
+                                        02h 15m
+                                    </p>
+                                    <p class="total_student">
+                                        <i class="far fa-user"></i>
+                                        5 Students
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cource_card">
+                            <span class="card_badge badge_inter">Chemsitry</span>
+                            <div class="card-img">
+                                <img class="cource-thumnnail" src="../images/cource.png" alt="">
+                                <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                <div class="wish_list flex-center">
+                                    <img src="../images/star.png" alt="" class="fav m-0">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                </h2>
+                                <div class="reviews d-flex align-items-center">
+                                    <div class="my-rating readOnly mb-2 me-2">
+                                    </div>
+                                    <span class="rating">4.9</span>
+                                    <span class="review_quantity">(79 Reviews)</span>
+                                </div>
+                                <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                            </div>
+                            <div class="footer mt-4">
+                                <div class="info d-flex justify-content-between">
+                                    <p class="total_lesson">
+                                        <i class="fas fa-stopwatch"></i>
+                                        02h 15m
+                                    </p>
+                                    <p class="total_student">
+                                        <i class="far fa-user"></i>
+                                        5 Students
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cource_card">
+                            <span class="card_badge badge_inter">Mathematics</span>
+                            <div class="card-img">
+                                <img class="cource-thumnnail" src="../images/cource.png" alt="">
+                                <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                <div class="wish_list flex-center">
+                                    <img src="../images/star.png" alt="" class="fav m-0">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                </h2>
+                                <div class="reviews d-flex align-items-center">
+                                    <div class="my-rating readOnly mb-2 me-2">
+                                    </div>
+                                    <span class="rating">4.9</span>
+                                    <span class="review_quantity">(79 Reviews)</span>
+                                </div>
+                                <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                            </div>
+                            <div class="footer mt-4">
+                                <div class="info d-flex justify-content-between">
+                                    <p class="total_lesson">
+                                        <i class="fas fa-stopwatch"></i>
+                                        02h 15m
+                                    </p>
+                                    <p class="total_student">
+                                        <i class="far fa-user"></i>
+                                        5 Students
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cource_card">
+                            <span class="card_badge badge_inter">CSE</span>
+                            <div class="card-img">
+                                <img class="cource-thumnnail" src="../images/cource.png" alt="">
+                                <a href="#" class="tutor_name text-blue">Tutor: Maggie Strickland</a>
+                                <div class="wish_list flex-center">
+                                    <img src="../images/star.png" alt="" class="fav m-0">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="cource_title">The Data Science Course 2022: Complete Data Science
+                                </h2>
+                                <div class="reviews d-flex align-items-center">
+                                    <div class="my-rating readOnly mb-2 me-2">
+                                    </div>
+                                    <span class="rating">4.9</span>
+                                    <span class="review_quantity">(79 Reviews)</span>
+                                </div>
+                                <span class="duration">11Aug 2022, 10:00am(GMT)</span>
+                            </div>
+                            <div class="footer mt-4">
+                                <div class="info d-flex justify-content-between">
+                                    <p class="total_lesson">
+                                        <i class="fas fa-stopwatch"></i>
+                                        02h 15m
+                                    </p>
+                                    <p class="total_student">
+                                        <i class="far fa-user"></i>
+                                        5 Students
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-pink w-100 m-0">ENROLL NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- rating and reviews section -->
+        <div class="container">
+            <div class="rating_review">
+              <h2 class="heading">Ratings & reviews</h2>
+              <div class="row">
+                <div class="col-lg-4">
+                    <div class="rating bg-white">
+                        <h3 class="mb-3">Tutor reviews</h3>
+                        <div class="d-flex">
+                            <h2 class="total_rating">4.5</h2>
+                            <div>
+                                <div class="stars">
+                                    <div class="my-rating readOnly"></div>
+                                </div>
+                                <p class="reviews_quantity font-grey">6900 Reviews</p>
+                            </div>
+                        </div>
+                        <div class="individual_review">
+                            <div class="experties box border-bottom-dashed mb-3 d-flex justify-content-between">
+                                <h3 class="font-grey">Expertise</h3>
+                                <div class="stars">
+                                    <div class="my-rating readOnly"></div>
+                                </div>
+                            </div>
+                            <div class="communication box border-bottom-dashed mb-3 d-flex justify-content-between">
+                                <h3 class="font-grey">Communication</h3>
+                                <div class="stars">
+                                    <div class="my-rating readOnly"></div>
+                                </div>
+                            </div>
+                            <div class="dedication box border-bottom-dashed mb-3 d-flex justify-content-between">
+                                <h3 class="font-grey">Dedication</h3>
+                                <div class="stars">
+                                    <div class="my-rating readOnly"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="feedbacks">
+                        <div class="feedback mb-4 border-bottom-dashed">
+                            <div class="start mb-3">
+                                <div class="my-rating readOnly"></div>
+                            </div>
+                            <p class="feedback_txt mb-2 mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="d-flex">
+                                <p class="name mb-0">Helen . </p>
+                                <div class="time mb-0"> 2 days ago</div>
+                            </div>
+                        </div>
+                        <div class="feedback mb-4 border-bottom-dashed">
+                            <div class="start mb-3">
+                                <div class="my-rating readOnly"></div>
+                            </div>
+                            <p class="feedback_txt mb-2 mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="d-flex">
+                                <p class="name mb-0">Helen . </p>
+                                <div class="time mb-0"> 2 days ago</div>
+                            </div>
+                        </div>
+                        <div class="feedback mb-4 border-bottom-dashed">
+                            <div class="start mb-3">
+                                <div class="my-rating readOnly"></div>
+                            </div>
+                            <p class="feedback_txt mb-2 mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="d-flex">
+                                <p class="name mb-0">Helen . </p>
+                                <div class="time mb-0"> 2 days ago</div>
+                            </div>
+                        </div>
+                        <div class="feedback mb-4 border-bottom-dashed">
+                            <div class="start mb-3">
+                                <div class="my-rating readOnly"></div>
+                            </div>
+                            <p class="feedback_txt mb-2 mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="d-flex">
+                                <p class="name mb-0">Helen . </p>
+                                <div class="time mb-0"> 2 days ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- pagination -->
+                    <div class="pagination_section">
+                        <a class="page_item flex-center btn" href="#">
+                            <img src="../images/prev.png" alt="">
+                        </a>
+                        <a class="page_item flex-center" href="#">1</a>
+                        <a class="page_item flex-center" href="#">2</a>
+                        <a class="page_item flex-center" href="#">3</a>
+                        <a class="page_item flex-center" href="#">4</a>
+                        <a class="page_item flex-center" href="#">5</a>
+                        <a class="page_item flex-center" href="#">6</a>
+                        <a class="page_item flex-center btn" href="#" style="transform: rotate(180deg);">
+                            <img src="../images/prev.png" alt="">
+                        </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer starts from here -->
+    <div class="quid-tutor">
+        <div class="container footer_padding">
+            <div class="row">
+                <div class="col-lg-10 col-md-9">
+                    <h2 class="section_title">Want to teach in QuidTutor?</h2>
+                    <p class="black">QuidTutor collaborate professional and talented tutors from all over the world!
+                        Join us right now!</p>
+                </div>
+                <div class="col-lg-2 col-md-3 flex-center">
+                    <a href="#" class="btn btn-yellow">Apply NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container footer_padding">
+            <div class="row-1 row">
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0">
+                    <h2 class="title_lg text-pink">Connect <br>With Us</h2>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0">
+                    <h3 class="section_title">Company</h3>
+                    <div class="list">
+                        <a href="#" class="links">About us</a>
+                        <a href="#" class="links">Pricing</a>
+                        <a href="#" class="links">Careers</a>
+                        <a href="#" class="links">Blog</a>
+                        <a href="#" class="links">Contact us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0">
+                    <h3 class="section_title">Solutions</h3>
+                    <div class="list">
+                        <a href="#" class="links">Find a tutor</a>
+                        <a href="#" class="links">How it works </a>
+                        <a href="#" class="links">Prices</a>
+                        <a href="#" class="links">Resources</a>
+                        <a href="#" class="links">For schools</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6 mt-5 mt-lg-0 text-xl-end text-start">
+                    <h3 class="section_title">Courses</h3>
+                    <div class="list">
+                        <a href="#" class="links">Khan Kids app</a>
+                        <a href="#" class="links">Science & engineering</a>
+                        <a href="#" class="links">Computing</a>
+                        <a href="#" class="links">Arts & humanities</a>
+                        <a href="#" class="links">Economics & finance</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row-2 row">
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info">
+                        <h3>REACH US AT</h3>
+                        <p>Berger Delhi One Floor 19, C-001/A2, </p>
+                        <p>Sector 16B, Noida, Uttar Pradesh 201301</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info">
+                        <h3>CALL US AT</h3>
+                        <p> +91 33 25745565110 </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info">
+                        <h3>SEND US EMAIL AT</h3>
+                        <p>info@quidtutor.com </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="info text-xl-end text-start">
+                        <div class="socials">
+                            <a href="#" class="social-link social_link_nomargin"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <p>© 2022 quidtutor All Rights Reserved</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/jquery.star-rating-svg.js"></script>
+    <script>
+        let fav = document.querySelectorAll(".wish_list");
+        fav.forEach(star => {
+            star.addEventListener("click", () => {
+                star.classList.toggle("active");
+            })
+        })
+    </script>
+</body>
+
+</html>
